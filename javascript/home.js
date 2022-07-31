@@ -2,40 +2,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     typeWriter("output", textArray);
   });
 
-/*
-function pad(val) {
-    var valString = val + "";
-    if (valString.length < 2) {
-        return "0" + valString;
-    } else {
-        return valString;
-    }
-}
-  
-/* TIME IN FORMAT HH:MM:SS *//*
-function checkTime(i) {
-    if (i < 10) {
-        i = "0" + i;
-    }
-    return i;
-}
-  
-setInterval(getTime, 1000);
-  
-function getTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    // add a zero in front of numbers < 10
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
-    t = setTimeout(function() {
-      getTime()
-    }, 500);
-}*/
-
 var textArray = [
     "Sewanee: The University Of The South Alumni",
     "Washington University in St. Louis Graduate Student",

@@ -172,7 +172,7 @@ h1.cursor::after {
   }
 }
 
-.home_mainbox_text {
+.home_mainbox_text, #time {
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 14px;
 	color: var(--licorice);
@@ -185,3 +185,5 @@ h1.cursor::after {
 	height:200px;
 	object-position: 0 15%;
 }
+
+
