@@ -177,3 +177,11 @@ h1.cursor::after {
 	font-size: 14px;
 	color: var(--licorice);
 }
+
+#home_image{
+	display: block;
+	margin: 0 auto;
+	object-fit: cover;
+	height:200px;
+	object-position: 0 15%;
+}
