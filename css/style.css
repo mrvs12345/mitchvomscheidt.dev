@@ -1,8 +1,10 @@
+/*Colors*/
 :root {
     --background: #3A6EA5;
     --white: #FFFFFF;
 }
 
+/*Background*/
 body {
 	margin:0;
 	overflow: hidden;
@@ -35,4 +37,76 @@ body {
 	margin-top: auto;
 	margin-bottom: auto;
 	box-shadow: 10px 10px 5px #0A3B76;
+}
+
+/*Tool Bar With Name & Links*/
+#home_tool_bar_name {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid;
+}
+
+#home_namebar {
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+    font-family: 'Press Start 2P', cursive;
+	padding-bottom: 1px;
+	padding-top:1px;
+
+}
+
+.home_namebar_fill {
+	margin: 5px;
+	width:100%;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuX29rRmoiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg5MCkiPjxsaW5lIHgxPSIwIiB5PSIwIiB4Mj0iMCIgeTI9IjQiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSI0Ii8+PC9wYXR0ZXJuPjwvZGVmcz4gPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNwYXR0ZXJuX29rRmopIiBvcGFjaXR5PSIxIi8+PC9zdmc+');
+	background-repeat: repeat;
+ }
+
+#home_tool_bar {
+	display:flex;
+	flex-direction: column;
+	border-bottom: double;
+	padding-bottom: 1px;
+	border-width: thick;
+}
+
+#home_tool_bar_entries {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 15px;
+	margin-left:1px;
+}
+
+#home_tool_bar_tiles {
+	height: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top:1px;
+}
+.home_tool_bar_entry {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	background-color: white;
+	color:black;
+}
+
+.home_tool_bar_entry:hover {
+	background-color: black;
+	color:white;
+
+}
+
+.home_tool_bar_entry_text {
+	margin:0;
+	padding-left: 4px;
+	padding-right: 4px;
+	line-height: 15px;
+}
+
+.home_tool_bar_button {
+    text-decoration: none;
 }
